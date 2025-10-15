@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import { products, categories } from '../Data/Products';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../Components/ProductCard';
 import { CartContext } from './Contexts/CartContext';
 import './Category.css';
 
