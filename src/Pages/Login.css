@@ -1,0 +1,94 @@
+/* Login.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6fff6;
+}
+
+.login-container {
+  max-width: 400px;
+  width: 90%; /* Added for responsiveness */
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 2rem auto; /* Changed from absolute to normal flow */
+  box-shadow: 0 8px 30px rgba(0, 128, 0, 0.15);
+  border: 1px solid #d9f2d9;
+  /* Removed absolute positioning */
+}
+
+/* Remove these properties:
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); 
+*/
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #b2dfdb;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.login-input:focus {
+  border: 1px solid #4caf50;
+}
+
+.login-button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #388e3c;
+}
+
+.google-button {
+  padding: 12px;
+  background-color: #f0e6e5;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.google-button:hover {
+  background-color: #d5cfcf;
+}
+
+.login-text {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login-link {
+  color: #2e7d32;
+  font-weight: bold;
+  text-decoration: none;
+}
