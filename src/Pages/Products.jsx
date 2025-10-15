@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { useSearch } from '../Pages/Contexts/SearchContext';
 import { products } from '../Data/Products';
 import { CartContext } from '../Pages/Contexts/CartContext';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../Components/ProductCard';
 import './Products.css';
 
 const Products = () => {
