@@ -745,7 +745,7 @@ export const categories = [
     name: "Frozen Foods",
     slug: "frozen-foods",
     description: "Convenient and delicious frozen meals and desserts.",
-    image: "https://cool-simple.com/cdn/shop/articles/88b703198fe3ad51308b02c2d9b2f7a6.jpg?v=1715101629&width=1200",
+    image: "https://static.toiimg.com/thumb/msid-111575935,imgsize-123954,width-400,resizemode-4/111575935.jpg",
   },
    
 ];
